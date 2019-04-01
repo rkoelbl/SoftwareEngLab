@@ -1,0 +1,25 @@
+#waiters {
+  position: absolute;
+}
+
+#waitersInside {
+  position: absolute;
+  overflow-y: scroll;
+  height: 300px;
+  width: 300px;
+}
+
+#tables {
+  position: absolute;
+  right: 50%;
+}
+
+#party {
+  position: absolute;
+  top: 70%;
+}
+
+#tableImg {
+  height: 300px;
+  width: 300px;
+}
