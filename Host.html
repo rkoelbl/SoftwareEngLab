@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang = 'en'>
+	<head>
+		<title> Kitchen</title>
+		<style src = "Kitchen.css"></style>
+
+		
+	</head>
+	
+	<body>
+		<h1 align="center"> Kitchen</h1>
+		
+		
+		<span id = "orders">
+		<script>
+			function buttonPress(){
+				// event.target will be the input element.
+				var td = event.target.parentNode; 
+				var tr = td.parentNode; // the row to be removed
+				tr.parentNode.removeChild(tr);
+			}
+		</script>
+		
+			<table style="width:100%">
+			<tr>
+			<th>Orders to be cooked</th>
+			</tr>
+			<tr>
+				<td>Order1</td>
+				<td><input type="button" value="Order Ready" onclick="buttonPress()"></td>
+			</tr>
+			<tr>
+				<td>Order2</td>
+				<td><input type="button" value="Order Ready" onclick="buttonPress()"></td>
+			</tr>
+			<tr>
+				<td>Order3</td>
+				<td><input type="button" value="Order Ready" onclick="buttonPress()"></td>
+			</tr>
+			<tr>
+				<td>Order4</td>
+				<td><input type="button" value="Order Ready" onclick="buttonPress()"></td>
+			</tr>
+			<tr>
+				<td>Order5</td>
+				<td><input type="button" value="Order Ready" onclick="buttonPress()"></td>
+			</tr>
+			
+			</table>
+			
+		</span>
+			
