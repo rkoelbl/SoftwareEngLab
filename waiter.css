@@ -1,0 +1,26 @@
+#tables{
+    position: absolute;
+    overflow-y: scroll;
+    height: 300px;
+    width: 300px; 
+}
+
+
+#ready{
+    position: absolute;
+    overflow-y: scroll;
+    height: 150px;
+    width: 150px;
+    left: 30%;
+    top: 15%;
+}
+
+#bottomButton{
+    position: absolute;
+    bottom: 10%;
+}
+
+#tableBlock{
+    position: absolute;
+    top: 15%;
+}
